@@ -1,6 +1,9 @@
 import express from "express";
 import cors from "cors";
 import carRentalRoute from "./routes/carRentalRoute.js";
+import mysql from "mysql2";
+
+
 const app = express();
 
 app.use(cors());
